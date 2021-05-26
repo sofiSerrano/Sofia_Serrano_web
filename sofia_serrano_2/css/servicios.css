@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.serv {
+    background-color: #CDEAB5;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    color: #D88C85;
+}
+
+.serv>* {
+    padding: 10px;
+}
+
+.tit_s h1 {
+    padding-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: #70885D;
+}
+
+.serv1,
+.serv2,
+.serv3 {
+    background-color: white;
+    margin: 30px;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 800px) {
+    .serv {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
