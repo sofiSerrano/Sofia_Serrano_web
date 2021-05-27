@@ -8,9 +8,7 @@
     background-color: #CDEAB5;
     font-family: 'Quicksand', sans-serif;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px;
+    margin: 0px 20px 0px 0px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -22,11 +20,36 @@
     padding: 10px;
 }
 
-.tit_s h1 {
-    padding-top: 15px;
+.tit_g {
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.tit_g a {
+    margin-top: 20px;
+    text-align: center;
+    color: #70885D;
+    font-size: 20px;
+}
+
+.tit_s h1,
+.tit_g h1 {
+    padding: 0px 15px 10px 0px;
     font-size: 30px;
     text-align: center;
     color: #70885D;
+}
+
+.tit_s h1 {
+    margin-top: 30px;
+}
+
+.icon {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 10px;
 }
 
 .serv1,
@@ -43,5 +66,8 @@
     .serv {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .git_link {
+        padding-bottom: 5px;
     }
 }

@@ -3,3 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 800px) {
+    .git_link {
+        padding-bottom: 5px;
+        padding-top: 20%;
+    }
+}
